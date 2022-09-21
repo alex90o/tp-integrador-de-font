@@ -1,0 +1,90 @@
+
+.imgCard {
+    width: 100%;
+    height: 100%;
+}
+.colorVerde{
+    color: #2B9E44 !important;
+}
+
+nav {
+    /*height: 70px;
+    height: 100%;
+    width: auto;
+    */
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:#353A40 !important;
+    flex-direction: justify-content;
+
+}
+#titulo {
+    text-align:center;
+    align-items: center;
+}
+
+#tituloOradores {
+    text-align:center;
+    align-items: center;
+}
+
+#contenido {
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+
+
+#lugar {
+    background-color:#353A40;
+    color:white;
+    display:flex;
+    margin: 0%;
+    padding: 0;
+    align-items: justify-content;
+}
+
+#lugar-texto{
+    
+    padding-left: 10px;
+}
+
+#contenido-form {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.colorGris{
+    color:rgb(130, 129, 133);
+}
+
+.colorBtnEnviar {
+    background-color:#28b046;
+}
+
+footer {
+    
+    background-color: #262656;
+    color: white;
+    text-indent: 150px;
+    height: 40px;
+    width:auto;
+}
+/*
+
+.botones {
+    font: bold !important ;
+
+}
+
+.btn {
+    bottom: font-weight-bold;
+}
+*/
+
+/*
+pone el texto en negrita en boostrap
+fw-bold
+*/
