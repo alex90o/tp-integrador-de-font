@@ -94,9 +94,10 @@ footer {
     
     background-color: #262656;
     color: white;
-    text-indent: 150px;
+    width:auto; 
+    /* text-indent: 150px;
     height: 40px;
-    width:auto;
+    */
 }
 /*
 
