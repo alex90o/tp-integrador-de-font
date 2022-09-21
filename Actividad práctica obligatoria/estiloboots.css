@@ -92,14 +92,24 @@ nav {
 
 footer {
     
-    background-color: #262656;
+    
     color: white;
     width:auto; 
-    /* text-indent: 150px;
+    background-image: linear-gradient(120deg, #283e4d 50%, rgb(24, 78, 112)  100%);
+    /*
+    background-color:#224a62; 
+    text-indent: 150px;
     height: 40px;
     */
+
 }
 /*
+/* lo que use para el footer
+https://getbootstrap.com/docs/5.1/layout/grid/
+
+https://pinetools.com/es/obtener-colores-imagen
+
+*/
 
 .botones {
     font: bold !important ;
