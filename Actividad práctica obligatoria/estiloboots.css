@@ -31,6 +31,7 @@ nav {
 #tituloOradores {
     text-align:center;
     align-items: center;
+    
 }
 
 #contenido {
@@ -44,28 +45,41 @@ nav {
 
 #lugar {
     display:flex;
-    margin: 0%;
-    padding: 0;
+    /* margin: 0%;
+    padding: 0; */
     align-items: justify-content;
+    background-color:#353A40;
     
 }
 
 #lugar-texto{
     background-color:#353A40;
     color:white;
-    
-    padding-left: 5px;
-    padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    /* padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    white-space: auto; */
     
 
 }
+#img-lugar{
+    margin: 0%;
+    padding: 0;
+}
 
 #contenido-form {
+    /*
     padding-top: 20px;
     padding-left: 250px;
     padding-right: 250px;
+    */
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .colorGris{
@@ -73,7 +87,7 @@ nav {
 }
 
 .colorBtnEnviar {
-    background-color:#28b046;
+    background-color:#96C93E;
 }
 
 footer {
