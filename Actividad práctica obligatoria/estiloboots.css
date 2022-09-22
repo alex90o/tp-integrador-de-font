@@ -23,6 +23,33 @@ nav {
     flex-direction: justify-content;
 
 }
+
+#carousel{
+    position:relative;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    
+}
+
+#texto-en-carousel{
+    text-align: right;
+    position: absolute;
+    /* width: 180px;
+    height: 65px; 
+    padding-top: 50px;
+    padding-left: 100px;
+    */
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-right: 70px;
+    margin-top: -250px;
+    color:white;
+}
+#carouselExampleSlidesOnly{
+    position: static;
+}
+
 #titulo {
     text-align:center;
     align-items: center;
@@ -89,7 +116,9 @@ nav {
 .colorBtnEnviar {
     background-color:#96C93E;
 }
-
+.BtnComprarTickets{
+    background-color:#07b34e;
+}
 footer {
     
     
