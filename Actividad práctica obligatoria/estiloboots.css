@@ -80,6 +80,17 @@ nav {
     padding-top: auto;
     padding-bottom: auto;
 }
+/*para achicar el carousel*/
+.carousel-inner img {
+    width: 100%;
+    max-height: 550px;
+}
+
+.carousel-inner{
+ max-height: 550px;
+}
+
+ 
 
 #titulo {
     text-align:center;
@@ -194,4 +205,9 @@ https://www.jose-aguilar.com/blog/como-funcionan-las-imagenes-en-bootstrap-4/#co
 /*
 para acomdar el texto a la derecha en el carusel
 https://getbootstrap.com/docs/5.1/utilities/flex/
+*/
+
+/*para achicar el carousel*/
+/* 
+https://es.stackoverflow.com/questions/16196/redimensionar-carousel-bootstrap-3
 */
