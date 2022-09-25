@@ -159,6 +159,11 @@ nav {
     padding-top: 30px;
 }
 
+u.dotted{
+   
+    text-decoration:underline dotted; 
+    color: black;
+  }
 .colorGris{
     color:rgb(130, 129, 133);
 }
@@ -228,4 +233,9 @@ https://www.bufa.es/css-aclarar-oscurecer-imagenes/
 
 /*
 https://lenguajecss.com/css/efectos/filtros-css/
+*/
+
+/*
+para lo del subrayado puntiado .. #9 
+https://www.mejorcodigo.com/p/51837.html#:~:text=De%20hecho%2C%20la%20etiqueta%20%3Cu,el%20CSS%20incorporado%20del%20navegador.&text=Sin%20CSS%2C%20b%C3%A1sicamente%20se%20atasca,texto%20y%20agregue%20el%20subrayado.
 */
