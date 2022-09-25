@@ -51,8 +51,10 @@ nav {
     padding-top: auto;
     padding-bottom: auto;
     
-    margin-top: -250px;
+    margin-top: -275px;
     color:white;
+    filter: contrast(180%);
+    /*z-index: 20;*/
     
     
 }
@@ -80,6 +82,23 @@ nav {
     padding-top: auto;
     padding-bottom: auto;
 }
+/*para achicar el carousel*/
+.carousel-inner img {
+    width: 100%;
+    max-height: 540px;
+    filter: brightness(40%);
+    
+    
+}
+
+.carousel-inner{
+ max-height: 540px;
+}
+/* .carousel-item img {
+    z-index: -100;
+} */
+
+ 
 
 #titulo {
     text-align:center;
@@ -148,14 +167,15 @@ nav {
     background-color:#96C93E;
 }
 .BtnComprarTickets{
-    background-color:#07b34e;
+    background-color:#19a051;
+    /* background-color:#07b34e; */
 }
 footer {
     
     
     color: white;
     width:auto; 
-    background-image: linear-gradient(120deg, #283e4d 50%, rgb(24, 78, 112)  100%);
+    background-image: linear-gradient(120deg, #283a45 50%, rgb(22, 82, 119)  100%);
     /*
     background-color:#224a62; 
     text-indent: 150px;
@@ -194,4 +214,18 @@ https://www.jose-aguilar.com/blog/como-funcionan-las-imagenes-en-bootstrap-4/#co
 /*
 para acomdar el texto a la derecha en el carusel
 https://getbootstrap.com/docs/5.1/utilities/flex/
+*/
+
+/*para achicar el carousel*/
+/* 
+https://es.stackoverflow.com/questions/16196/redimensionar-carousel-bootstrap-3
+*/
+
+/*aclarar y oscureser imagenes con CSS*/
+/*
+https://www.bufa.es/css-aclarar-oscurecer-imagenes/
+*/
+
+/*
+https://lenguajecss.com/css/efectos/filtros-css/
 */
