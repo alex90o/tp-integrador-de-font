@@ -246,6 +246,14 @@ https://www.mejorcodigo.com/p/51837.html#:~:text=De%20hecho%2C%20la%20etiqueta%2
     padding-right: 200px;
     padding-bottom: 30px;
     padding-top: 30px;
-    position:relative; 
+
     
+}
+.cuadrado {
+    width: 13rem; 
+    height: 13rem; 
+    /* margin: 3px; */
+    border: solid;
+    
+   
 }
