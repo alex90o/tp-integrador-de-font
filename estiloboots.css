@@ -239,3 +239,13 @@ https://lenguajecss.com/css/efectos/filtros-css/
 para lo del subrayado puntiado .. #9 
 https://www.mejorcodigo.com/p/51837.html#:~:text=De%20hecho%2C%20la%20etiqueta%20%3Cu,el%20CSS%20incorporado%20del%20navegador.&text=Sin%20CSS%2C%20b%C3%A1sicamente%20se%20atasca,texto%20y%20agregue%20el%20subrayado.
 */
+
+
+#contenidoTickets{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    position:relative; 
+    
+}
