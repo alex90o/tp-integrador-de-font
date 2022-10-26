@@ -242,22 +242,35 @@ https://www.mejorcodigo.com/p/51837.html#:~:text=De%20hecho%2C%20la%20etiqueta%2
 
 
 #contenidoTickets{
-    padding-left: 260px;
-    padding-right: 260px; 
+    padding-left: 200px;
+    padding-right: 200px; 
     padding-bottom: 30px;
     padding-top: 30px;
     justify-items: center;
     position: relative;
-   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
 
     
 }
 .cuadrado {
-    width: 13rem; 
-    height: 13rem; 
-    margin: 1px; 
+    max-width: 13rem; 
+    max-height: 13rem; 
+    min-width: 10rem; 
+    min-height: 10rem; 
+   
     border: solid;
-    display: flex;
+    /* display: flex; */
     
    
+}
+
+.rectangulo{
+    background-color: #D3FFFF;
+    border-radius: 8px;
+    max-height: 50px;
+    color: rgb(35, 134, 247);
+    
 }
