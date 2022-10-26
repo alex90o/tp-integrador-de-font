@@ -271,6 +271,19 @@ https://www.mejorcodigo.com/p/51837.html#:~:text=De%20hecho%2C%20la%20etiqueta%2
     background-color: #D3FFFF;
     border-radius: 8px;
     max-height: 50px;
+    max-width: 745px;
     color: rgb(35, 134, 247);
     
+}
+
+#contenido-form-ticket {
+    /*
+    padding-top: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    */
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
