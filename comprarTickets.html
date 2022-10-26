@@ -61,12 +61,13 @@
          
       <div class="container-fluid">
   
+        
         <div class="row">
-           
             <!--Inico card tipos-->
-            <div class="container" id="contenidoTickets">
-              <div class="card-group text-center">
-              <div class=" cuadrado  card border-primary" >
+            <div class="container" id="contenidoTickets" >
+              <!-- <div class="text-center">
+              <div class=" cuadrado border-primary card h-100
+              col-xs-4 col-sm-4 col-md-4 col-lg-4" >
                
                 <div class="card-body">
                   <h5 class="card-title">Estudiante</h5>
@@ -75,7 +76,8 @@
                   <p class="card-text">*presentrar documentación</p>
                 </div>
               </div>
-              <div class="card border-warning cuadrado">
+              <div class="card h-100 border-warning cuadrado 
+              col-xs-4 col-sm-4 col-md-4 col-lg-4">
               
                 <div class="card-body">
                   <h5 class="card-title">Trainee</h5>
@@ -84,7 +86,8 @@
                   <p class="card-text">*presentrar documentación</p>
                 </div>
               </div>
-              <div class="card border-info cuadrado" >
+              <div class="card h-100 border-info cuadrado
+              col-xs-4 col-sm-4 col-md-4 col-lg-4" >
                 
                 <div class="card-body">
                   <h5 class="card-title">Junior</h5>
@@ -93,18 +96,52 @@
                   <p class="card-text">*presentrar documentación</p>
                 </div>
               </div>  
+          </div> -->
+          <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+            <div class="col">
+              <div class="card h-100 border-primary cuadrado">
+                <div class="card-body">
+                  <h5 class="card-title">Estudiante</h5>
+                  <p class="card-text">Tiene un descuento</p>
+                  <h5 class="card-title">80%</h5>
+                  <p class="card-text">*presentrar documentación</p>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-warning cuadrado">
+                <div class="card-body">
+                  <h5 class="card-title">Trainee</h5>
+                  <p class="card-text">Tiene un descuento</p>
+                  <h5 class="card-title">50%</h5>
+                  <p class="card-text">*presentrar documentación</p>
+                </div>
+               
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-info cuadrado">
+                <div class="card-body">
+                  <h5 class="card-title">Junior</h5>
+                  <p class="card-text">Tiene un descuento</p>
+                  <h5 class="card-title">15%</h5>
+                  <p class="card-text">*presentrar documentación</p>
+                </div>
+               
+              </div>
+            </div>
           </div>
         </div>
+        </div>
           <!--Fin oradores-->
-   
-        </div> 
+    
           <!--Inici form-->
-          <div class="container" id="contenido-form">
+          <div class="container" id="contenidoTickets">
           <!-- <div class="row"> -->
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="tituloOradores">
-              <samp>CONVIÉRTETE EN UN</samp>
-              <h3>ORADOR</h3>
-              <p>Anótate como orador para dar una  <u class="dotted">charla ignite</u>. Cuéntanos de qué quieres hablar!</p>
+              <samp>VENTA</samp>
+              <h3>VALOR DE TICKET $200</h3>
           </div>
           <form>
           <div class="row">
@@ -119,10 +156,10 @@
               <br> <br> <br>
             
   
-                <div class="mb-3">
-                  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Sobre qué quieres hablar?" rows="3"></textarea>
-                  <label for="exampleFormControlTextarea1" class="form-label colorGris">Recueda incluir un título para tu charla</label>
-                </div>
+              <div class="mb-3">
+                
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo">
+              </div>
               
 
             

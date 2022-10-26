@@ -242,18 +242,22 @@ https://www.mejorcodigo.com/p/51837.html#:~:text=De%20hecho%2C%20la%20etiqueta%2
 
 
 #contenidoTickets{
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 260px;
+    padding-right: 260px; 
     padding-bottom: 30px;
     padding-top: 30px;
+    justify-items: center;
+    position: relative;
+   
 
     
 }
 .cuadrado {
     width: 13rem; 
     height: 13rem; 
-    /* margin: 3px; */
+    margin: 1px; 
     border: solid;
+    display: flex;
     
    
 }
