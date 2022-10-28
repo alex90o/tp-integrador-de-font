@@ -2,7 +2,7 @@
 
 let categoria = document.getElementById('categoria');
 let cantidad = document.getElementById('cantidad');
-
+let totalapagar = document.getElementById('totalapagar');
 console.log(categoria.value);
 console.log(categoria.textContent)
 console.log(categoria.innerHTML)
@@ -16,6 +16,7 @@ function calcularTotal(){
 
    console.log(cantidad.value);
    console.log(categoria.value);
+   
 
    // document.getElementById('resultadoInput').textContent = botonUnico.value;
 
