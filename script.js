@@ -52,7 +52,9 @@ function calcularTotal(){
 
 }
 
-
+function borrarTotal(){
+   resultado.innerHTML ="";
+}
 
 
 
