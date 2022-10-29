@@ -27,7 +27,7 @@ function calcularTotal(){
 
    //console.log(cantidad.value);
    //console.log(categoria.value);
-   let total = 0;
+   let total ="";
    //1 Estudiante -- 2 Junior -- 3 Trainee
    switch (categoria.value) {
       case "1":
