@@ -59,14 +59,32 @@ function borrarTotal(){
 
 
 
+function validarTextoEntrada(input, patron) {
+   var texto = input.value
+   var letras = texto.split("")
+   for (var x in letras) {
+       var letra = letras[x]
+       if (!(new RegExp(patron, "i")).test(letra)) {
+           letras[x] = ""
+       }
+   }
+   input.value = letras.join("")
+}
+
+var txtnombre = document.getElementById("txtnombre")
+txtnombre.addEventListener("input", function (event) {
+    validarTextoEntrada(this, "[a-z ]")
+})
 
 
+var txtapellido = document.getElementById("txtapellido")
+txtapellido.addEventListener("input", function (event) {
+    validarTextoEntrada(this, "[a-z ]")
+})
 
-
-
-
-
-
+/*para validar que sean solo letras solo numeros y numeros con letas con js 
+https://aprendiendocondomingo.wordpress.com/2020/05/20/como-validar-texto-de-entrada-en-input-solo-numeros-solo-letras-y-personalizado-con-javascript/
+*/
 
 
 
